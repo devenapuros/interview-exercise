@@ -1,0 +1,27 @@
+{
+    "name": "interview-exercise",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "test": "vitest",
+        "coverage": "vitest run --coverage"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "@vitejs/plugin-react": "^2.2.0",
+        "@vitest/coverage-c8": "^0.25.2",
+        "eslint": "^8.27.0",
+        "eslint-plugin-react": "^7.31.10",
+        "vite": "^3.2.3",
+        "vitest": "^0.25.2"
+    }
+}
