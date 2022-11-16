@@ -11,7 +11,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#dependences">Tecnologias y dependencias</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Instalación</a></li>
       </ul>
     </li>
     <li><a href="#usage">Utilización</a></li>
@@ -97,7 +97,7 @@ Para lanzar la solución en modo desarrollo, ejecutar el siguiente comando:
 npm run dev
 ```
 
-<h2 id="test">Ejecución de las pruebas unitarias</h2>
+<h2 id="testing">Ejecución de las pruebas unitarias</h2>
 
 Usar el siguiente comando para ejecutar las pruebas unitarias:
 
