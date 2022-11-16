@@ -1,9 +1,7 @@
-import { useState } from "react";
+import { SerieCalculator } from "./components/SerieCalculator";
 
 function App() {
-    const [count, setCount] = useState(0);
-
-    return <h1>Hola mundo</h1>;
+    return <SerieCalculator />;
 }
 
 export default App;
