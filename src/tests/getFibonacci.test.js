@@ -12,8 +12,8 @@ describe("getFibonacci", () => {
     });
 
     it("Should throw if parameter provided is less than 0", () => {
-        expect(() => getFibonacci(-1)).toThrow(/must be at least 0/);
-        expect(() => getFibonacci(-2)).toThrow(/must be at least 0/);
+        expect(() => getFibonacci(-1)).toThrow(/must have a minimum value of 0/);
+        expect(() => getFibonacci(-2)).toThrow(/must have a minimum value of 0/);
     });
 
     it("Should return the Fibonacci number in the position given as a parameter", () => {

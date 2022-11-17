@@ -13,8 +13,8 @@ describe("getPrime", () => {
     });
 
     it("Should throw if parameter provided is less or equal to 1", () => {
-        expect(() => getPrime(0)).toThrow(/at least 1/);
-        expect(() => getPrime(-1)).toThrow(/at least 1/);
+        expect(() => getPrime(0)).toThrow(/must have a minimum value of 1/);
+        expect(() => getPrime(-1)).toThrow(/must have a minimum value of 1/);
     });
 
     it("Should return a prime number in the position provided as a parameter", () => {

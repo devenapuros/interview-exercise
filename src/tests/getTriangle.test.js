@@ -12,8 +12,8 @@ describe("getTriangle", () => {
     });
 
     it("Should throw if parameter provided is less than 0", () => {
-        expect(() => getTriangle(-1)).toThrow(/must be at least 0/);
-        expect(() => getTriangle(-2)).toThrow(/must be at least 0/);
+        expect(() => getTriangle(-1)).toThrow(/must have a minimum value of 0/);
+        expect(() => getTriangle(-2)).toThrow(/must have a minimum value of 0/);
     });
 
     it("Should return de triangular number on the position given as a parameter", () => {
